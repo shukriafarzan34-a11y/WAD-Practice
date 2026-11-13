@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Al Karam Kebab - Montilla</title>
+  <link rel="stylesheet" href="mstyle.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a class="brand" href="home.html">
+        <img src="images_html/img.logo.jpg" alt="Al Karam Kebab Logo" class="logo">
+        <span class="brand-name">AL KARAM <span>KEBAB</span></span>
+    </a>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="assistant.html">AI Food Assistant</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+  <!-- ===== PAGE TITLE ===== -->
+  <section class="hero">
+    <h1>Our Menu</h1>
+    <p>Fresh kebab, pizza, burgers and more </p>
+  </section>
+
+  <main class="container">
+    <input type="radio" name="cat" id="c-all" checked>
+    <input type="radio" name="cat" id="c-kebab" >
+    <input type="radio" name="cat" id="c-pizza" >
+    <input type="radio" name="cat" id="c-burgers" >
+    <input type="radio" name="cat" id="c-chicken" >
+    <input type="radio" name="cat" id="c-plates" >
+    <input type="radio" name="cat" id="c-deals" >
+
+    <div class="categories">
+      <label for="c-all">All</label>
+      <label for="c-kebab">Kebab</label>
+      <label for="c-pizza">Pizza</label>
+      <label for="c-burgers">Burgers</label>
+      <label for="c-chicken">Chicken</label>
+      <label for="c-plates">Plates</label>
+      <label for="c-deals">Deals</label>
+    </div>
+
+    <!-- ===== FOOD CARDS ===== -->
+    <section class="grid" id="menu-grid">
+        <article class="card" data-category="kebab" data-name="Durum Kebab">
+          <div class="card-img"><span class="badge">Popular</span><img src="images_html/Durum Kebab.png" alt="Durum Kebab" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Durum Kebab</h3>
+            <p class="desc">Grilled doner meat, salad and garlic sauce in a warm rolled wrap.</p>
+            <div class="card-foot">
+              <span class="price">Rs 350.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="kebab" data-name="Doner Pita">
+          <div class="card-img"><img src="images_html/Doner pita.png" alt="Doner Pita" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Doner Pita</h3>
+            <p class="desc">Doner meat, fresh lettuce, tomato and yogurt sauce in pita bread.</p>
+            <div class="card-foot">
+              <span class="price">Rs 1000.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="kebab" data-name="Chicken Durum">
+          <div class="card-img"><img src="images_html/Chicken Durum.png" alt="Chicken Durum" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Chicken Durum</h3>
+            <p class="desc">Tender chicken doner with salad and your choice of sauce.</p>
+            <div class="card-foot">
+              <span class="price">Rs 800.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="pizza" data-name="Pizza Turca">
+          <div class="card-img"><span class="badge">Chef's pick</span><img src="images_html/Pizza Turca.png" alt="Pizza Turca" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Pizza Turca</h3>
+            <p class="desc">Turkish-style pizza topped with doner meat, cheese and peppers.</p>
+            <div class="card-foot">
+              <span class="price">Rs 2000.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="pizza" data-name="Pizza Pepperoni">
+          <div class="card-img"><img src="images_html/Pizza Pepperoni.png" alt="Pizza Pepperoni" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Pizza Pepperoni</h3>
+            <p class="desc">Classic tomato and mozzarella pizza with pepperoni.</p>
+            <div class="card-foot">
+              <span class="price">Rs 2500.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="burgers" data-name="Burger">
+          <div class="card-img"><img src="images_html/burger.png" alt="Burger" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Burger</h3>
+            <p class="desc">Juicy beef patty, cheese, lettuce and tomato in a toasted bun.</p>
+            <div class="card-foot">
+              <span class="price">Rs 1200.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="burgers" data-name="Chicken Burger">
+          <div class="card-img"><img src="images_html/Chicken Burger.png" alt="Chicken Burger" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Chicken Burger</h3>
+            <p class="desc">Crispy chicken fillet with lettuce and creamy sauce.</p>
+            <div class="card-foot">
+              <span class="price">Rs 450.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="chicken" data-name="Chicken Nuggets">
+          <div class="card-img"><img src="images_html/Chicken Nuggets.png" alt="Chicken Nuggets" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Chicken Nuggets</h3>
+            <p class="desc">Golden crispy nuggets, 9 pieces, with dipping sauce.</p>
+            <div class="card-foot">
+              <span class="price">Rs 500.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="plates" data-name="Chicken Plate">
+          <div class="card-img"><span class="badge">Popular</span><img src="images_html/Chicken Plate.png" alt="Chicken Plate" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Chicken Plate</h3>
+            <p class="desc">Grilled chicken with fries and salad.</p>
+            <div class="card-foot">
+              <span class="price">Rs 900.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="plates" data-name="Mixed Kebab Plate">
+          <div class="card-img"><img src="images_html/Mixed Kebab.png" alt="Mixed Kebab Plate" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Mixed Kebab Plate</h3>
+            <p class="desc">Doner meat, fries, salad and bread.</p>
+            <div class="card-foot">
+              <span class="price">Rs 1300.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="deals" data-name="Durum Menu">
+          <div class="card-img"><span class="badge">Deal</span><img src="images_html/Durum Menu.png" alt="Durum Menu" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Durum Menu</h3>
+            <p class="desc">Durum kebab + fries + a drink.</p>
+            <div class="card-foot">
+              <span class="price">Rs 700.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+        <article class="card" data-category="deals" data-name="Family Deal">
+          <div class="card-img"><span class="badge">Deal</span><img src="images_html/Family Deal.png" alt="Family Deal" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Family Deal</h3>
+            <p class="desc">5 SMASH + 5 DRINKS + 2 FRIES.</p>
+            <div class="card-foot">
+              <span class="price">Rs 3,975.00</span>
+              <a class="btn" href="https://www.google.com/" target="_blank">+ Add / Order</a>
+            </div>
+          </div>
+        </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 AI Karam Kebab. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
